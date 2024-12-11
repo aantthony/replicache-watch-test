@@ -1,0 +1,20 @@
+{
+  "name": "replicache-watch-test",
+  "version": "0.0.0",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --port 3002 --host",
+    "preview": "vite preview --port 3002 --host",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  },
+  "dependencies": {
+    "replicache": "^15.0.1"
+  }
+}
